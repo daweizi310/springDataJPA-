@@ -1,0 +1,13 @@
+server: 
+  port: 8181
+spring: 
+  application:  
+    name: jpa-demo
+  datasource:  
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/jpa_demo?useUnicode=true&amp;characterEncoding=UTF8
+    username: root
+    password: root
+  jpa: 
+    database: MySQL
+    show-sql: true
